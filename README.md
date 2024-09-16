@@ -31,3 +31,9 @@ This is a simple Spring Boot application demonstrating how to use Hibernate with
 └── pom.xml                              # Maven configuration
 
 ```
+
+# Prerequisites
+Make sure you have the following installed:
+
+JDK 17 or later
+Maven 3.8.1 or later
