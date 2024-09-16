@@ -35,5 +35,5 @@ This is a simple Spring Boot application demonstrating how to use Hibernate with
 # Prerequisites
 Make sure you have the following installed:
 
-JDK 17 or later
+JDK 17 or later<br>
 Maven 3.8.1 or later
