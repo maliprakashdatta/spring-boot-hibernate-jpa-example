@@ -1,5 +1,25 @@
 # spring-boot-hibernate-jpa-example
 
+### Technical Details
+In this project, we are going to use below set of versions for demonstrations.
+
+    Spring Boot - 3.3.3
+    Lombok - 1.18.34
+    mysql-8.0.28
+    starter-web-3.3.2
+
+### Building
+
+The example can be built with
+```shell
+mvn clean install
+```
+
+### Running the example in your local
+```shell
+mvn clean spring-boot:run
+```
+
 ## Spring Boot Hibernate JPA Example
 This is a simple Spring Boot application demonstrating how to use Hibernate with Spring Data JPA. It includes REST endpoints for managing User entities in an in-memory mysql/H2 database.
 
