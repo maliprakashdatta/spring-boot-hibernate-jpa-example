@@ -57,3 +57,10 @@ Make sure you have the following installed:
 
 JDK 17 or later<br>
 Maven 3.8.1 or later
+
+# /customer 
+# customer POST method
+```shell
+// POSTMAN GET AND POST PROCESS PANDING COMMING SOON 
+```
+
