@@ -1,7 +1,7 @@
 # spring-boot-hibernate-jpa-example
 
 ## Spring Boot Hibernate JPA Example
-This is a simple Spring Boot application demonstrating how to use Hibernate with Spring Data JPA. It includes REST endpoints for managing User entities in an in-memory H2 database.
+This is a simple Spring Boot application demonstrating how to use Hibernate with Spring Data JPA. It includes REST endpoints for managing User entities in an in-memory mysql/H2 database.
 
 ### Features
 Spring Boot: A framework to create production-ready applications in minimal time.
