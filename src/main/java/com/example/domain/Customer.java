@@ -11,8 +11,7 @@ import java.time.LocalDateTime;
 
 @Getter
 @Setter
-//@Entity(name = "Customer")
-@Entity(name = "customermodel")
+@Entity(name = "Customer")
 @ToString
 @NoArgsConstructor
 @EntityListeners(AuditingEntityListener.class)
@@ -26,6 +25,7 @@ public class Customer {
     @Column(name = "firstName")
     private String firstName;
 
+    @Column(name = "lastName")
     private String lastName;
 
     @ToString.Exclude
