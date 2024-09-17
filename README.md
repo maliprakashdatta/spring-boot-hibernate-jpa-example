@@ -91,7 +91,7 @@ curl --location --request GET 'http://localhost:8083/customerManagement/customer
 <image src="https://github.com/user-attachments/assets/c18eb804-71e4-4846-a292-0352c096b933" width="750" height="350">
 
 # mysql customerdb
-creat  Schemas customerdb
+create  Schemas customerdb
 ```shell
 CREATE SCHEMA `customerdb` ;
 ```
