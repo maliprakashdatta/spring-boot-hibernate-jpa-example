@@ -71,9 +71,9 @@ curl --location 'http://localhost:8083/customerManagement/customer' \
 } '
 ```
 # customer POST Screen method
-```shell
+
 <image src="https://github.com/user-attachments/assets/894136c1-cbd1-4670-9082-635399100df3" width="750" height="350">
-```
+
 # customer GET method
 ```shell
 curl --location --request GET 'http://localhost:8083/customerManagement/customer/2' \
@@ -87,8 +87,8 @@ curl --location --request GET 'http://localhost:8083/customerManagement/customer
     '
 ```
 # customer GET Screen method
-```shell
+
 <image src="https://github.com/user-attachments/assets/c18eb804-71e4-4846-a292-0352c096b933" width="750" height="350">
 
-```
+
 
