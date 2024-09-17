@@ -61,6 +61,42 @@ Maven 3.8.1 or later
 # /customer 
 # customer POST method
 ```shell
-// POSTMAN GET AND POST PROCESS PANDING COMMING SOON 
+curl --location 'http://localhost:8083/customerManagement/customer' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "id":2,
+   "firstName":"Purva",
+   "lastName":"patil",
+    "email":"purvap@gmail.com"
+} '
 ```
+# customer POST Screen 
+
+<image src="https://github.com/user-attachments/assets/894136c1-cbd1-4670-9082-635399100df3" width="750" height="350">
+
+# customer GET method
+```shell
+curl --location --request GET 'http://localhost:8083/customerManagement/customer/2' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "id":2,
+   "firstName":"Purva",
+   "lastName":"patil",
+    "email":"purvap@gmail.com"
+}
+    '
+```
+# customer GET Screen 
+
+<image src="https://github.com/user-attachments/assets/c18eb804-71e4-4846-a292-0352c096b933" width="750" height="350">
+
+# mysql customerdb
+create  Schemas customerdb
+```shell
+CREATE SCHEMA `customerdb` ;
+```
+# customer mysql customerdb Screen Output
+
+<image src="https://github.com/user-attachments/assets/1da907b6-138f-413a-8a8b-6fc5cf933e36" width="750" height="350">
+
 
