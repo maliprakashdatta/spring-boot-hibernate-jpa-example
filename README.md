@@ -76,7 +76,18 @@ curl --location 'http://localhost:8083/customerManagement/customer' \
 ```
 # customer GET method
 ```shell
+curl --location --request GET 'http://localhost:8083/customerManagement/customer/2' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "id":2,
+   "firstName":"Purva",
+   "lastName":"patil",
+    "email":"purvap@gmail.com"
+}
+    '
+```
+# customer GET Screen method
+```shell
 
 ```
-
 
