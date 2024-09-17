@@ -61,6 +61,22 @@ Maven 3.8.1 or later
 # /customer 
 # customer POST method
 ```shell
-// POSTMAN GET AND POST PROCESS PANDING COMMING SOON 
+curl --location 'http://localhost:8083/customerManagement/customer' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "id":2,
+   "firstName":"Purva",
+   "lastName":"patil",
+    "email":"purvap@gmail.com"
+} '
 ```
+# customer POST Screen method
+```shell
+
+```
+# customer GET method
+```shell
+
+```
+
 
