@@ -97,6 +97,6 @@ CREATE SCHEMA `customerdb` ;
 ```
 # customer mysql customerdb Screen Output
 
-<image src="https://github.com/user-attachments/assets/1da907b6-138f-413a-8a8b-6fc5cf933e36" width="750" height="350">
+<image src="https://github.com/user-attachments/assets/e740d5d7-64da-416d-86a2-07d285f67b17" width="750" height="350">
 
 
